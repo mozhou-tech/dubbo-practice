@@ -1,0 +1,24 @@
+spring:
+  profiles:
+    active: dev,core-dev
+
+dubbo:
+  protocol:
+    port: 8001
+    name: dubbo
+  registry:
+    protocol: zookeeper
+    address: "127.0.0.1:2181"
+  application:
+    name: teno-cloud-organiz
+    id: teno-cloud-organiz
+    monitor: registry
+  scan:
+    base-packages: com.tenoke.cloud.organiz.service
+  provider:
+    retries: 0
+    timeout: 300
+
+
+
+

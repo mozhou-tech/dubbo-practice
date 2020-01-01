@@ -1,0 +1,10 @@
+
+## 环境变量说明
+
+|环境变量|默认值|
+|----|----|
+|ZOOKEEPER_ADDRESS | 127.0.0.1:2181|
+|DB_MYSQL_HOST | 127.0.0.1
+|DB_MYSQL_PORT | 3306
+|DB_MYSQL_USERNAME | tenoke 
+|DB_MYSQL_PASSWORD | (空)
