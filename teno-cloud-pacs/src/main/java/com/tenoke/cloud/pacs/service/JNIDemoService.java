@@ -6,11 +6,12 @@ import org.springframework.stereotype.Service;
 public class JNIDemoService {
 
     public native static String hello();
+
     static {
-        System.load("/Users/jerrylau/IdeaProjects/teno-cloud/teno-cloud-pacs/src/main/resources/jni/demo-cpython-36m-darwin.so");
+        System.loadLibrary("/Users/jerrylau/IdeaProjects/teno-cloud/teno-cloud-pacs/src/main/resources/jni/demo-cpython-36m-darwin.so");
     }
 
-    public void printHello(){
-
+    void printHello() {
+        hello();
     }
 }
