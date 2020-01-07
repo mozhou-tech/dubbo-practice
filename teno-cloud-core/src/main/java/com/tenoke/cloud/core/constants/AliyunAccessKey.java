@@ -13,8 +13,8 @@ public class AliyunAccessKey {
     /**
      * SLS,SMS,OSS
      */
-    public final static String ALIYUN_ACCESS_KEY_ID = "LTAIbmF0IspanDrP";
+    public final static String ALIYUN_ACCESS_KEY_ID = "";
 
-    public final static String ALIYUN_ACCESS_KEY_SECRET = "FHubdMe1EgYSCBvnT6jQTRbDoPyiBr";
+    public final static String ALIYUN_ACCESS_KEY_SECRET = "";
 
 }
