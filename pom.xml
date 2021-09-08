@@ -11,7 +11,7 @@
     <properties>
         <java.version>11</java.version>
         <spring-boot.version>2.2.2.RELEASE</spring-boot.version>
-        <dubbo.version>2.7.3</dubbo.version>
+        <dubbo.version>2.7.13</dubbo.version>
         <maven.compiler.target>11</maven.compiler.target>
         <maven.compiler.source>11</maven.compiler.source>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
